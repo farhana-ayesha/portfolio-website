@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farhana Ayesha - Frontend Developer</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <body>
+        
+       <nav>
+  <div class="logo">Farhana Ayesha</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav> 
+
+   <section class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <p class="hello">Hi, I'm</p>
+      <h2>Farhana Ayesha</h2>
+      <p class="role">Frontend Developer</p>
+      <p class="bio">I build simple, clean websites using HTML, CSS and JavaScript.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">My Projects</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="code-box">
+        <div class="code-dots">
+          <span></span><span></span><span></span>
+        </div>
+        <pre>
+<span class="c-blue">const</span> <span class="c-yellow">farhana</span> = {
+  role: <span class="c-green">"Frontend Developer"</span>,
+  skills: [
+    <span class="c-green">"HTML"</span>,
+    <span class="c-green">"CSS"</span>,
+    <span class="c-green">"JavaScript"</span>
+  ],
+  available: <span class="c-blue">true</span>
+}
+        </pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm Farhana Ayesha, a Frontend Developer who is passionate about
+          building things for the web. I enjoy writing clean code and creating
+          simple, user-friendly websites.
+        </p>
+        <p>
+          I'm currently learning HTML, CSS and JavaScript and working on real
+          projects every day to improve my skills.
+        </p>
+        <p>
+          My goal is to work on meaningful projects and keep growing as a
+          developer.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">3</span>
+          <span class="stat-label">GitHub Repos</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Dedication</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Eager to Learn</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="bg-light">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-chip">HTML5</div>
+      <div class="skill-chip">CSS3</div>
+      <div class="skill-chip">JavaScript</div>
+      <div class="skill-chip">Responsive Design</div>
+      <div class="skill-chip">Git & GitHub</div>
+      <div class="skill-chip">Netlify</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <h3>E-Commerce Site</h3>
+        <p>A responsive e-commerce website with product listings and modern layout.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+        <a href="https://github.com/farhana-ayesha/ecommerce-site" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>First Project</h3>
+        <p>My very first web project — where my frontend journey began.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+        <a href="https://github.com/farhana-ayesha/first-project" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>HTML Test Repo</h3>
+        <p>A practice repository to experiment with HTML structure and elements.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+        </div>
+        <a href="https://github.com/farhana-ayesha/html_test" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-light">
+    <h2>Get In Touch</h2>
+    <p class="contact-desc">I'm open to freelance work or collaboration. Feel free to reach out!</p>
+    <a href="mailto:afrworkid2026@gmail.com" class="contact-email">afrworkid2026@gmail.com</a>
+    <div class="social-links">
+      <a href="https://github.com/farhana-ayesha" target="_blank" class="social-link">GitHub</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Made by Farhana Ayesha &copy; <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
