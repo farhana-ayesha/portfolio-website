@@ -422,3 +422,10 @@ footer p {
     padding: 4rem 5%;
   }
 }
+
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
