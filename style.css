@@ -350,6 +350,7 @@ section h2 {
   transition: border-color 0.2s;
 }
 
+
 .contact-email:hover {
   border-color: var(--accent);
 }
@@ -374,6 +375,7 @@ section h2 {
   border-color: var(--accent);
   color: var(--accent);
 }
+
 
 /* ── FOOTER ── */
 footer {
