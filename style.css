@@ -411,3 +411,30 @@ footer p {
     padding: 4rem 5%;
   }
 }
+
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 5%;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 0.9rem;
+  }
+}
